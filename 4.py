@@ -16,7 +16,7 @@ for n in alf:
 
     if n != 0:
         a = int(n + '228777')
-        if p(a): arr.append(a)
+        if p(a) and a <= 5000000: arr.append(a)
 
     a = int('22877'+n+'7')
     if p(a): arr.append(a)
